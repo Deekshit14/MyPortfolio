@@ -40,7 +40,7 @@ const Hero = () => {
                          </div>
                     </div>
 
-                    <div className='w-[240px] sm:w-[300px] md:w-[370px] h-[288px] md:h-[350px] bg-[#2c2f3f] rounded-3xl relative order-1 lg:order-2 flex items-center justify-center '>
+                    <div className='w-[270px] sm:w-[300px] md:w-[370px] h-[288px] md:h-[350px] bg-[#2c2f3f] rounded-3xl relative order-1 lg:order-2 flex items-center justify-center '>
           
                          <img src={PROFILE_PIC} alt="Profile Pic" className='profile-pic rounded-3xl object-cover' />
                          
@@ -56,7 +56,7 @@ const Hero = () => {
                                <i className="devicon-javascript-plain text-white colored text-[32px] md:text-[48px]"></i>
                          </div>
 
-                         <div className="icon-img left-[170px] sm:left-[200px] md:left-[275px] -bottom-11 sm:-bottom-11 md:-bottom-12 rotate-[4.75deg] bg-[#08264d] p-2">
+                         <div className="icon-img left-[200px] md:left-[275px] -bottom-11 sm:-bottom-11 md:-bottom-12 rotate-[4.75deg] bg-[#08264d] p-2">
                                <i className="devicon-spring-original text-white colored text-[32px] md:text-[48px]"></i>
                          </div>
                     </div>

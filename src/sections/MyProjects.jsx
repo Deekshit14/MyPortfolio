@@ -4,7 +4,6 @@ import useEmblaCarousel from 'embla-carousel-react';
 import { useEffect, useState, useCallback } from 'react';
 import { IoIosArrowForward } from 'react-icons/io';
 import { PROJECTS } from '../utils/data';
-import { div } from 'framer-motion/client';
 import ProjectCard from '../components/ProjectCard';
 
 const MyProjects = () => {
@@ -54,6 +53,7 @@ const MyProjects = () => {
                                                   imgUrl = {project.image}
                                                   title = {project.title}
                                                   tags = {project.tags}
+                                                  link = {project.link}
                                              />
                                         </div>
                                    ))}
@@ -76,9 +76,9 @@ const MyProjects = () => {
                                    ${!canScrollPrev ? "opacity-50 cursor-not-allowed" : ""}`
                               }
                               onClick={() => emblaApi && emblaApi.scrollNext()}
-                              disabled={!canScrollPrev}
+                              disabled={!canScrollNext}
                          >
-                              <IoIosArrowForward className='' />
+                              <IoIosArrowForward />
                          </button>
                     </div>
                </div>

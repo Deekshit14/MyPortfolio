@@ -183,7 +183,7 @@ export const SKILLS = [
           id: "16",
           icon: FaCss3,
           skill: "CSS3",
-          progress: 95,
+          progress: 88,
           type: "frontend",
           description:
                "I have extensive experience in building web applications using CSS3, including Flexbox, Grid, and animations.",
@@ -283,32 +283,37 @@ export const ABOUT_ME = {
 export const PROJECTS = [
      {
           id: 1,
-          title: "Finance Tracker (Wallet Wiz) using Nextjs",
+          title: "Finance Tracker (Wallet Wiz) using NextJS",
           image: PROJECT_IMG_1,
           tags: ["NextJS", "ReactJS", "Tailwind CSS", "NodeJS", "ExpressJS", "Typescript" ,"Clerk Authentication" ,"Drizzle ORM", "Shadcn"],
+          link: "https://github.com/Deekshit14/Finance-Tracker",
      },
      {
           id: 2,
-          title: "Smart Contact Manager Using Spring Boot",
+          title: "Smart Contact Manager using Spring Boot",
           image: PROJECT_IMG_2,
           tags: ["Spring Boot", "Java", "MySQL", "Thymeleaf", "TailwindCss", "Spring Security", "Spring JPA", "Spring MVC"],
+          link: "https://github.com/Deekshit14/Contact-Manager",
      },
      {
           id: 3,
-          title: "AI Mock Interview Platform",
+          title: "AI Mock Interview Platform using NextJS, VAPI",
           image: PROJECT_IMG_3,
           tags: ["NextJS","ReactJS", "VAPI", "NodeJS", "ExpressJS", "Supabase DB", "OpenRouter AI"],
+          link: "https://github.com/Deekshit14/AI-Interview-Recruiter-Project",
      },
      {
           id: 4,
-          title: "Admin Dashboard using ReactJS",
+          title: "Admin Dashboard using ReactJS (Frontend)",
           image: PROJECT_IMG_4,
           tags: ["ReactJS", "Tailwind CSS", "JavaScript", "React-Recharts" ,"Material UI", "HTML","CSS"],
+          link: "https://github.com/Deekshit14/Admin-Dashboard-Project",
      },
      {
           id: 5,
           title: "Restaurant Booking Website using Bootstrap (Frontend)",
           image: PROJECT_IMG_5,
           tags: ["HTML", "CSS", "Bootstrap", "JavaScript", "Responsive Web Design", "Web Development"],
+          link: "https://github.com/Deekshit14/Restaurant-Bootstrap",
      }
 ]
