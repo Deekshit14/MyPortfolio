@@ -169,7 +169,7 @@ const Navbar = () => {
                          {/* Hire Me button (hidden on small screens) */}
                          <a href="https://www.linkedin.com/in/deekshit-m1404" target="_blank" rel="noopener noreferrer">
                               <button
-                                   className='btn hidden md:block h-12 text-[15px] font-medium text-white bg-gradient-to-r from-[#F6A64F] to-[#b56141] rounded-full px-9 transition-transform duration-300 ease-in-out hover:scale-105'
+                                   className='btn hidden lg:block h-12 text-[15px] font-medium text-white bg-gradient-to-r from-[#F6A64F] to-[#b56141] rounded-full px-9 transition-transform duration-300 ease-in-out hover:scale-105'
                               >
                                    Hire Me
                               </button>

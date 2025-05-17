@@ -10,13 +10,20 @@ import PROJECT_IMG_3 from "../assets/images/img1.png";
 import PROJECT_IMG_4 from "../assets/images/img6.jpg";
 import PROJECT_IMG_5 from "../assets/images/img5.jpg";
 
+import CERTIFICATE_IMG_1 from "../assets/images/cert-1.png";
+import CERTIFICATE_IMG_2 from "../assets/images/cert-2.png";
+import CERTIFICATE_IMG_3 from "../assets/images/cert-3.png";
+import CERTIFICATE_IMG_4 from "../assets/images/cert-1.png";
+import CERTIFICATE_IMG_5 from "../assets/images/cert-1.png";
+
 
 export const MENU_LINKS = [
      { id: "01", label: "Home", offset: -100, to: "hero" },
      { id: "02", label: "Skills", offset: -80, to: "skills" },
      { id: "03", label: "About Me", offset: -80, to: "about" },
      { id: "04", label: "Projects", offset: -80, to: "projects" },
-     { id: "05", label: "Contact", offset: -80, to: "contact" },
+     { id: "05", label: "Certificates", offset: -80, to: "certificates" },
+     { id: "06", label: "Contact", offset: -80, to: "contact" },
 ];
 
 export const STATS = [
@@ -93,7 +100,7 @@ export const SKILLS = [
           id: "07",
           icon: SiSpringboot,
           skill: "Spring Boot",
-          progress: 87,
+          progress: 83,
           type: "backend",
           description:
                "I have experience in building Java-based applications using Spring Boot, including RESTful APIs, security, and database integration.",
@@ -129,7 +136,7 @@ export const SKILLS = [
           id: "11",
           icon: SiPostman,
           skill: "Postman",
-          progress: 75,
+          progress: 70,
           type: "tools",
           description:
                "I have experience in using Postman for API testing, including creating collections, environments, and automated tests.",
@@ -201,7 +208,7 @@ export const SKILLS = [
           id: "18",
           icon: FaDesktop,
           skill: "Operating Systems",
-          progress: 84,
+          progress: 77,
           type: "subjects",
           description:
                "I have a strong understanding of operating systems, including process management, memory management, and file systems.",
@@ -210,7 +217,7 @@ export const SKILLS = [
           id: "19",
           icon: SiPython,
           skill: "Python",
-          progress: 80,
+          progress: 76,
           type: "subjects",
           description:
                "I am familiar with Python's syntax and can write basic scripts and functions for simple tasks.",
@@ -237,7 +244,7 @@ export const SKILLS = [
           id: "22",
           icon: FaDatabase,
           skill: "DBMS",
-          progress: 80,
+          progress: 74,
           type: "subjects",
           description:
                "I have a strong understanding of database management systems, including relational databases, normalization, and SQL queries.",
@@ -274,8 +281,8 @@ export const ABOUT_ME = {
           { id: "03", label: "Twitter", icon: FaXTwitter, link: "https://x.com/Deekshit_mr360?t=0_cWojjRB6m29AYrGy1xQ&s=08"}
      ],
 
-     email: "deekshith1404@gmail.com",
-     phone: "+91 9632477275",
+     email: "-----@gmail.com",
+     phone: "+91 ----------",
      website: "https://github.com/Deekshit14",
      linkedIn: "https://www.linkedin.com/in/deekshit-m1404"
 };
@@ -316,4 +323,38 @@ export const PROJECTS = [
           tags: ["HTML", "CSS", "Bootstrap", "JavaScript", "Responsive Web Design", "Web Development"],
           link: "https://github.com/Deekshit14/Restaurant-Bootstrap",
      }
+]
+
+
+export const CERTIFICATES = [
+     {
+          id: 1,
+          title: "INTRODUCTION TO GIT AND GITHUB (GOOGLE)",
+          image: CERTIFICATE_IMG_1,          
+          link: "https://www.coursera.org/account/accomplishments/records/0L45P6FD173R",
+     },
+     {
+          id: 2,
+          title: "PROGRAMMING WITH JAVASCRIPT (META)",
+          image: CERTIFICATE_IMG_2,
+          link: "https://www.coursera.org/account/accomplishments/records/3JMFEXHRNN9Z",
+     },
+     {
+          id: 3,
+          title: "INTODUCTION TO DATABASE AND SQL (IBM)",
+          image: CERTIFICATE_IMG_3,
+          link: "https://www.coursera.org/account/accomplishments/records/M5NYYC6368WT",
+     },
+     // {
+     //      id: 4,
+     //      title: "ADVANCED REACT (META)",
+     //      image: CERTIFICATE_IMG_4,
+     //      link: "https://github.com/Deekshit14/Admin-Dashboard-Project",
+     // },
+     // {
+     //      id: 5,
+     //      title: "INTRODUCTION TO FRONTEND DEVELOPER (META)",
+     //      image: CERTIFICATE_IMG_5,
+     //      link: "https://github.com/Deekshit14/Restaurant-Bootstrap",
+     // }
 ]

@@ -14,9 +14,9 @@ const ContactMe = () => {
                     <div className='w-full lg:w-[60vw] mx-auto'>
                          <h4 className='section-title'>Contact Me</h4>
 
-                         <p className='text-sm text-center mt-4 leading-6 text-white'>
+                         {/* <p className='text-sm text-center mt-4 leading-6 text-white'>
                               An adaptable developer with hands-on experience in the latest tools and frameworks, driven to build high-performance, user-centric applications
-                         </p>
+                         </p> */}
                     </div>
                     
                     <div className='grid grid-cols-1 md:grid-cols-2 md:gap-16 mt-16'>
